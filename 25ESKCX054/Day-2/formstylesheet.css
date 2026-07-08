@@ -1,0 +1,21 @@
+.first{
+    background-color: blueviolet;
+}
+
+#second{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+
+button{
+    width: 350px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.third{
+    width: 350px;
+}
