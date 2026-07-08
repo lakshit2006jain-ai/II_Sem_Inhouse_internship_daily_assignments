@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+        <link rel="stylesheet" href="formstylesheet.css">
 
+</head>
+<body class="first">
+    <form id="second">
+    <h1>Registration Form</h1>    
+     
+        <label>Full Name</label>
+    <br>
+    
+    <input type="text" placeholder="Enter full name" name="name" class="third">
+    <br>
+    <br>
+    <br>
+    
+    <label >Email Address</label>
+    <br>
+    <input type="email" placeholder="Enter email address" name="email" class="third">
+    <br><br><br>
+    
+  <pre><label for="phone">Phone Number</label>               <label for="birthdate">Birth Date</label>
+
+      <input type="text" id="phone" name="phoneNumber" placeholder="Enter phone number">     <input type="date" id="birthdate" name="birthdate">
+  </pre>   
+   <p>Gender</p>
+     <input type="radio" id="check-male" name="gender" checked>
+     <label for="check-male">Male</label>
+
+     <input type="radio" id="check-female" name="gender" checked>
+     <label for="check-female">Female</label>
+
+     <input type="radio" id="not to say" name="gender" checked>
+     <label for="not to say">Prefer not to say</label>
+     <br><br>
+
+     <label for="branch">Branch</label>
+     <select name="course" id="course">
+        <option value="CSE">CSE</option>
+        <option value="ME">ME</option>
+        <option value="CE">CE</option>
+     </select>
+<br><br>
+
+<input type="file">
+<br><br>
+     <label >Address</label>
+     <br>
+     <input type="text" placeholder="Enter street address" class="third">
+     <br><br>
+     <input type="text" placeholder="Enter street address line 2" class="third">
+     <br>
+     <br>
+     <br>
+     <select name="Country" id="Country">
+        
+        <option value="India">India</option>
+        <option value="America">America</option>
+        <option value="Germany">Germany</option>
+     </select>
+
+     <input type="text" placeholder="Enter your city">
+     <br><br>
+     <input type="text" placeholder="Enter your region">
+     <input type="text" placeholder="Enter postal code">
+
+     <br><br><br>
+    <button type="submit">Submit</button>
+    
+    
+        
+
+
+    </form>
+</body>
+</html>
