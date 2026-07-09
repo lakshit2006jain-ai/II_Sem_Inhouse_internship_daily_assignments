@@ -9,7 +9,7 @@ include ("header.php");
     <p>Your form has been submitted successfully.</p>
 
     </div>
-    <a href="login.php" class="btn btn-primary">Go Back</a>
+    <a href="Login.php" class="btn btn-primary">Go Back</a>
 </div>
 
 <?php
